@@ -6,4 +6,4 @@
 let type1 = 'Hallo'
 let type2 = 5
 const type3 = 7.2
- 
+const type4 = ("Hallo")

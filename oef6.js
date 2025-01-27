@@ -5,3 +5,7 @@
  */
 
 let kleur;
+
+if (kleur == undefined) {
+    console.log("rood");
+}

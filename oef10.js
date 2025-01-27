@@ -19,3 +19,8 @@
 
 let startgetal = 2;
 const eindgetal = 12;
+
+for (startgetal; startgetal <= eindgetal; startgetal+2) {
+    console.log(`Het startgetal ${startgetal} werd ${eindgetal/startgetal} keer verhooght met 2`);
+    
+}

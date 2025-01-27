@@ -13,3 +13,9 @@
  * 5 x 10 = 50
  */
 
+let kernGetal = 5
+i = 0
+for (i ; i <= kernGetal; i++) {
+    i*=10
+    console.log(`${i} x 10 = ${i*10}`);
+}

@@ -22,14 +22,14 @@
  */
 
 let startgetal = 4
-const eindgetal = 3
+const eindgetal = 15
 
 if (startgetal>eindgetal) {
-    console.log(`${startgetal} + `);
+    console.log(`${startgetal} + ${startgetal} = ${startgetal*2}`);
 }
 else{
     for (startgetal; startgetal < eindgetal; startgetal+=startgetal) {
-        console.log(startgetal);
+        console.log(`${startgetal} + ${startgetal} = ${startgetal*2}`);
 }
 
 }
