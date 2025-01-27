@@ -13,3 +13,26 @@
  * - licht uit  =>  licht gaat uit
  * 
  */
+const actie = "licht uit"
+
+switch (actie) {
+    case "open deur":
+        console.log("Deur gaat open");
+        break;
+    case "muziek":
+        console.log("muziek start met spelen");
+        break;
+    case "stilte":
+        console.log("muziek gaat uit");
+        break;
+    case "licht aan":
+        console.log("licht gaan aan");
+        break;
+    case "licht uit":
+        console.log("licht gaat uit");
+        break;
+        
+
+    default:
+        break;
+}

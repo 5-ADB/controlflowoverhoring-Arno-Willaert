@@ -1,5 +1,5 @@
 /**
- * Geef de correct syntact voor onderstaande zaken
+ * Geef de correct syntax voor onderstaande zaken
  */
 
 // 1. for lus

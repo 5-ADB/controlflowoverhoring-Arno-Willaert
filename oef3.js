@@ -5,5 +5,11 @@
  * In het andere geval moet er in de console verschijnen: sproeiers uit
  */
 
-const grondIsDroog = true;
+const grondIsDroog = false;
 const geenRegenVoorspeld = true;
+if(grondIsDroog == true && geenRegenVoorspeld == true){
+    console.log("sproeiers aan");
+}
+else{
+    console.log("Sproeiers uit");
+}

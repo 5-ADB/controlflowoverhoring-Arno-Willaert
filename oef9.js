@@ -20,3 +20,16 @@
  * in de console krijg ik
  * 4 + 4 = 8
  */
+
+let startgetal = 4
+const eindgetal = 3
+
+if (startgetal>eindgetal) {
+    console.log(`${startgetal} + `);
+}
+else{
+    for (startgetal; startgetal < eindgetal; startgetal+=startgetal) {
+        console.log(startgetal);
+}
+
+}
