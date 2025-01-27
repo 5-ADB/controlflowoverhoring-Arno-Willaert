@@ -21,15 +21,15 @@
  * 4 + 4 = 8
  */
 
-let startgetal = 4
-const eindgetal = 15
+let startGetal = 4
+const eindGetal = 15
 
-if (startgetal>eindgetal) {
-    console.log(`${startgetal} + ${startgetal} = ${startgetal*2}`);
+if (startGetal>eindGetal) {
+    console.log(`${startGetal} + ${startGetal} = ${startGetal*2}`);
 }
 else{
-    for (startgetal; startgetal < eindgetal; startgetal+=startgetal) {
-        console.log(`${startgetal} + ${startgetal} = ${startgetal*2}`);
+    for (startGetal; startGetal < eindGetal; startGetal+=startGetal) {
+        console.log(`${startGetal} + ${startGetal} = ${startGetal*2}`);
 }
 
 }

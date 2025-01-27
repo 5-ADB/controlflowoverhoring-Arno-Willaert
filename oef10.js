@@ -17,10 +17,10 @@
  *
  */
 
-let startgetal = 2;
-const eindgetal = 12;
-
-for (startgetal; startgetal <= eindgetal; startgetal+2) {
-    console.log(`Het startgetal ${startgetal} werd ${eindgetal/startgetal} keer verhooght met 2`);
+let startGetal = 2;
+const eindGetal = 12;
+for (startGetal; startGetal <= eindGetal; startGetal+=2) {
+    console.log(startGetal);
     
 }
+console.log(`Het startgetal ${startGetal} werd ${eindGetal/2} aantal keer verhoogt met 2.`);
