@@ -7,8 +7,8 @@
  * ####
  * #####
  */
-hastags = "#"
+hashtags = "#"
 for (let i = 0; i <= 5; i++) {
-    hastags+=i
-    console.log(hastags);    
+    hashtags+=i
+    console.log(hashtags);  
 }
